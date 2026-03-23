@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayuntamiento de Hermosillo | Orientación sobre trámites de construcción</title>
+  <style>
+    :root {
+      --azul-principal: #0b3a6e;
+      --azul-secundario: #155a9c;
+      --gris-fondo: #f4f6f8;
+      --gris-texto: #2f3a45;
+      --blanco: #ffffff;
+      --dorado: #d8b25a;
+      --borde: #d9e0e6;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--gris-fondo);
+      color: var(--gris-texto);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--azul-principal), var(--azul-secundario));
+      color: var(--blanco);
+      padding: 20px 0;
+      border-bottom: 4px solid var(--dorado);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .logo {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      text-align: center;
+      padding: 10px;
+      border: 2px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .title-block h1 {
+      font-size: 1.8rem;
+      margin-bottom: 4px;
+    }
+
+    .title-block p {
+      font-size: 0.98rem;
+      opacity: 0.95;
+    }
+
+    main {
+      padding: 36px 0 50px;
+    }
+
+    .hero {
+      background: var(--blanco);
+      border: 1px solid var(--borde);
+      border-radius: 14px;
+      padding: 28px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+      margin-bottom: 24px;
+    }
+
+    .hero h2 {
+      color: var(--azul-principal);
+      margin-bottom: 14px;
+      font-size: 1.5rem;
+    }
+
+    .hero p {
+      margin-bottom: 12px;
+      font-size: 1rem;
+    }
+
+    .notice {
+      background: #fff8e8;
+      border-left: 5px solid var(--dorado);
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin-top: 18px;
+      font-size: 0.95rem;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    .card {
+      background: var(--blanco);
+      border: 1px solid var(--borde);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .card h3 {
+      color: var(--azul-principal);
+      margin-bottom: 10px;
+      font-size: 1.08rem;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+    }
+
+    footer {
+      background: #e9eef3;
+      border-top: 1px solid var(--borde);
+      padding: 18px 0;
+      font-size: 0.92rem;
+      color: #4b5b6a;
+      text-align: center;
+    }
+
+    .small {
+      font-size: 0.88rem;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <div class="logo">HMO</div>
+      <div class="title-block">
+        <h1>Ayuntamiento de Hermosillo</h1>
+        <p>Asistente virtual de orientación sobre trámites de construcción</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="hero">
+        <h2>Orientación inicial para trámites de construcción</h2>
+        <p>
+          Bienvenido a esta página de demostración académica del asistente virtual
+          de orientación sobre trámites de construcción en Hermosillo.
+        </p>
+        <p>
+          El chatbot está diseñado para brindar orientación inicial sobre la
+          posible aplicación de autorización, permiso o licencia de construcción,
+          así como mostrar requisitos básicos y canalizar al usuario a la
+          plataforma digital correspondiente.
+        </p>
+
+        <div class="notice">
+          <strong>Aviso:</strong> Este sitio es una demostración con fines académicos.
+          No constituye un portal oficial ni sustituye la revisión formal de la
+          autoridad competente.
+        </div>
+
+        <div class="info-grid">
+          <div class="card">
+            <h3>¿Qué puede hacer el asistente?</h3>
+            <p>
+              Orientar al usuario de manera preliminar sobre el trámite que podría
+              requerir y compartir información básica para continuar su gestión.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Alcance</h3>
+            <p>
+              Se trata de una herramienta informativa de primer contacto,
+              desarrollada como ejercicio académico mediante IBM watsonx Assistant.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Canalización</h3>
+            <p>
+              Al final del flujo conversacional, el usuario puede ser dirigido a la
+              plataforma H Digital para continuar el trámite en línea.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>Ayuntamiento de Hermosillo | Página demostrativa de uso académico</div>
+      <div class="small">Desarrollo de prototipo de asistente virtual para la Actividad 8</div>
+    </div>
+  </footer>
+
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "5b936049-5d47-42c7-b734-6045aecef9b6",
+      region: "us-south",
+      serviceInstanceID: "a699c559-65ed-439b-968f-c810b8dae0f0",
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+      const t = document.createElement('script');
+      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+        (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+        "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+</body>
+</html>
